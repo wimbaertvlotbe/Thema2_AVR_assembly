@@ -31,7 +31,7 @@
 	In opdracht 1 heb je een delay geprogrammeerd. In deze opdracht ga je de code voor de lus in een 
 	subroutine plaatsen en aanroepen vanuit een hoofdprogramma.
 
-		4.Schrijf in assembleertaal een programma waarmee je in een oneindige telkens opnieuw de subroutine 
+		4.Schrijf in assembleertaal een programma waarmee je in een oneindige lus telkens opnieuw de subroutine 
 		  voor de geneste lus aanroept. Je noemt de subroutine DELAY
 
 */
@@ -44,12 +44,12 @@
 	In opdracht 2 heb je een DELAY-subroutine geprogrammeerd. In deze opdracht ga je die subroutine gebruiken
 	om een LED te laten knipperen aan een zekere frequentie. 
 	
-	1. Zoek op het schema van 	het Arduino-bordje op door welke poort van de µC pinnetje 8 op het arduino-bordje wordt aangestuurd
+	1. Zoek op het schema van 	het Arduino-bordje op door welke poort van de ÂµC pinnetje 8 op het arduino-bordje wordt aangestuurd
 	2. Configureer het DDR-reguister zodat die desbetreffende aansluiting als output werkt. lees de leerstof in de cursus p.15-16
 	3. Schrijf de assemblercode waarmee je de betreffende output toggelt (1-0-1-0). Tussen elke toggle roep je de 
 	   in de vorige opdracht geschreven DELAY-routine aan.
 	4. Controleer in simulatie of de code werkt. Werk met breakpoints. Bepaal de togglefrequentie. 
-	5. Laadt het programma in de µC op het arduino-bordje. Lees eerst de cursus p. 17-20
+	5. Laadt het programma in de ÂµC op het arduino-bordje. Lees eerst de cursus p. 17-20
 	6. Sluit aan pinnetje 8 van het arduino-bordje een LED met geschikte voorschakelweerstand aan en ga na of de code werkt
 	
 	Maak een filmpje terwijl je de code test op het bordje (knipperende LED). Komt de knipperfrequentie overeen met wat je 
